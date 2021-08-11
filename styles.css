@@ -1,9 +1,90 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background: url(./images/landing.jpg);
+  background: url(./images/landing.jpg);
+  font-family: "Titillium Web", sans-serif;
+  color: aliceblue;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+}
+
+.login-form {
+  width: 320px;
+  height: 320px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0.5px);
+  -webkit-backdrop-filter: blur(0.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  align-items: center;
+  padding: 50px;
+}
+
+h1 {
+  /* display: flex;
+  justify-content: center; */
+  font-size: 75px;
+}
+
+.login-link {
+  font-size: large;
+  margin: auto;
+}
+
+.wrapper {
+  /* height: 100vh; */
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-type {
+  width: 18ch;
+  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-size: 75px;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.signup-btn {
+  background-color: black;
+  width: 50%;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  box-shadow: none;
+  margin: auto;
+}
+
+.signup-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 0.5em 0.5em 0.5em;
+  margin-bottom: 10px;
 }
