@@ -8,6 +8,7 @@ body {
   background: url(./images/landing.jpg);
   font-family: "Titillium Web", sans-serif;
   color: aliceblue;
+  background-attachment: fixed;
 }
 
 .wrapper {
@@ -46,30 +47,105 @@ h1 {
 .product-container {
   display: flex;
   justify-content: center;
-  margin: auto;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .img-1 {
   height: 300px;
-  length: 300px;
+  width: 250px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .img-2 {
   height: 300px;
-  length: 300px;
+  width: 250px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .img-3 {
   height: 300px;
-  length: 300px;
+  width: 250px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .img-4 {
   height: 300px;
-  length: 300px;
+  width: 250px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .img-5 {
   height: 300px;
-  length: 300px;
+  width: 250px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.img-6 {
+  height: 300px;
+  width: 250px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.row-1 {
+  margin: 2%;
+  padding: 3%;
+}
+
+.row-2 {
+  margin: 5%;
+}
+
+.row-3 {
+  margin: 5%;
+}
+
+.prod-1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info {
+  font-size: 50px;
+  color: transparent;
+}
+
+.info:hover {
+  font-size: 200px;
+  color: white;
+  transition: 2s ease-in-out;
 }

@@ -8,6 +8,7 @@ body {
   background: url(./images/landing.jpg);
   font-family: "Titillium Web", sans-serif;
   color: aliceblue;
+  background-attachment: fixed;
 }
 
 .login {
@@ -50,7 +51,7 @@ h1 {
 
 .welcome-type {
   width: 18ch;
-  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  animation: typing 2s steps(23), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
