@@ -140,12 +140,15 @@ h1 {
 }
 
 .info {
-  font-size: 50px;
-  color: transparent;
+  font-size: 10px;
+  color: white;
+  /* color: transparent; */
+  transition: font-size 1s;
+  transition-timing-function: linear;
 }
 
-.info:hover {
-  font-size: 200px;
+.img-1:hover .info {
+  font-size: 50px;
   color: white;
-  transition: 2s ease-in-out;
+  transition: 1s ease-in-out;
 }
